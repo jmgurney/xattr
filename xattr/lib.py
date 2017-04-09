@@ -1,6 +1,10 @@
 import os
 import sys
 
+from future.utils.surrogateescape import register_surrogateescape
+
+register_surrogateescape()
+
 try:
     from ._lib import lib, ffi
 except ImportError:

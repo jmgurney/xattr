@@ -1,1 +1,2 @@
 cffi>=1.0
+git+https://github.com/jmgurney/python-future.git@fixsur
